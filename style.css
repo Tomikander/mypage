@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap);
+
+body {
+	margin: 0;
+}
+
+.logo {
+	font-size: 25px;
+	color:#F9FAF8
+}
+
+.header {
+	display: flex;
+	justify-content: space-around;
+	background-color: #1F2937;
+}
+
+ul {
+	display: flex;
+	margin: 0;
+	padding: 19px;
+	gap: 16px;
+	list-style-type: none;
+}
+
+.left, .right {
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	gap: 19px;
+	color: #E5E7EB;
+	font-family: Roboto, serif;
+}
